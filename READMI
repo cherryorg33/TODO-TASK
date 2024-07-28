@@ -1,0 +1,90 @@
+ MERN Stack Application Setup and Running Instructions
+
+Prerequisites
+Before running the application, ensure you have the following installed:
+- Node.js: Version 18 or higher. [Download Node.js](https://nodejs.org/)
+- MongoDB: A running instance of MongoDB. [Download MongoDB](https://www.mongodb.com/try/download/community)
+
+Running the Backend
+
+1. Navigate to the Backend Directory:
+   Open a terminal or PowerShell window and navigate to the backend directory.
+   ```bash
+   cd path/to/your/project/backend
+   ```
+
+2. Check for Node Modules:
+   Verify if the `node_modules` directory exists.
+   - If `node_modules` exists, start the backend server:
+     ```bash
+     npm start
+     ```
+   - If `node_modules` does not exist, install the necessary packages and then start the server:
+     ```bash
+     npm install
+     npm start
+     ```
+
+ Running the Frontend
+
+1. Open a New Terminal or PowerShell Window:
+   Open a new terminal or PowerShell window to handle the frontend separately.
+
+2. Navigate to the Frontend Directory:
+   Navigate to the `todo` directory (assuming this is the name of your frontend directory).
+   ```bash
+   cd path/to/your/project/todo
+   ```
+
+3. Check for Node Modules:
+   Verify if the `node_modules` directory exists.
+   - If `node_modules` exists, start the frontend development server:
+     ```bash
+     npm run dev
+     ```
+   - If `node_modules` does not exist, install the necessary packages and then start the server:
+     ```bash
+     npm install
+     npm run dev
+     ```
+
+Summary of Commands
+
+Backend
+
+1. Navigate to the backend directory:
+   ```bash
+   cd path/to/your/project/backend
+   ```
+
+2. If `node_modules` exists:
+   ```bash
+   npm start
+   ```
+
+3. If `node_modules` does not exist:
+   ```bash
+   npm install
+   npm start
+   ```
+Frontend
+
+1. Open a new terminal or PowerShell window.
+
+2. Navigate to the frontend directory (`todo`):
+   ```bash
+   cd path/to/your/project/todo
+   ```
+
+3. If `node_modules` exists:
+   ```bash
+   npm run dev
+   ```
+
+4. If `node_modules` does not exist:
+   ```bash
+   npm install
+   npm run dev
+   ```
+
+By following these instructions, you should be able to set up and run your MERN stack application successfully. Ensure that MongoDB is running and properly configured to connect with your backend.
